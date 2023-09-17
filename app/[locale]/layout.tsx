@@ -5,7 +5,6 @@ import {createTranslator, NextIntlClientProvider} from 'next-intl';
 import {ReactNode} from 'react';
 import Header from '../../components/Header/Header';
 
-
 const inter = Inter({subsets: ['latin']});
 
 type Props = {
