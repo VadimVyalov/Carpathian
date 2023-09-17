@@ -14,7 +14,7 @@ const Header=({className=""})=>{
     return (
 		
 		<header
-			className={`w-[100vw] z-30  px-[20px] pt-[36px] t:px-[32px] t:pt-[25px] d:px-[24px] d:pt-[48px] ${className}`}
+			className={`w-[100vw] px-[20px] pt-[36px] t:px-[32px] t:pt-[25px] d:px-[24px] d:pt-[48px] ${className}`}
 		>
 					 {isM ? <Navbar  /> : <p>'BurgerMenu'</p>}
          

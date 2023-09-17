@@ -38,7 +38,7 @@ const  Navbar=()=> {
                   spy={true}
                   active="active"
                   smooth={true}
-                  duration={1000}
+                  duration={500}
                   
                   to={item.link}
                

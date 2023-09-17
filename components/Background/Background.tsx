@@ -1,20 +1,18 @@
 import Image from "next/image";
 
-export function Background({ src,children, className = ""}) {
+const  Background=({ src, className = ""}) =>{
 	return (
       
-        
-        <div className={'fixed h-[100vh] w-[100vh] overflow-hidden z-[-1]'}>
+        <div className={'absolute top-0 center h-screen w-screen overflow-hidden z-[-1]'}>
           <Image
             alt="Mountains"
-            src={scr}
+            src={src}
             placeholder="blur"
             quality={100}
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: 'cover',
-            }}
+   
+            sizes="(max-width: 320px) 16w, (max-width: 768px) 32w, (max-width: 1200px) 48w, 64w"
+            layout="fill"
+            objectFit="cover"
           />
         </div>
  
@@ -22,3 +20,4 @@ export function Background({ src,children, className = ""}) {
 	);
     }
 
+    export default Background;

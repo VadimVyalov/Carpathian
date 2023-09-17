@@ -18,7 +18,7 @@ const Hero = () => {
   }, [router]);
 
   return (
-    <Section className={`${style.bg}`}>
+    <Section className={`${style.bg} relative`}>
     <Container >
       
         <div className="grid grid-cols-1 t:grid-cols-[426px_230px] d:grid-cols-[646px_294px] t:grid-rows-[auto_auto_auto] gap-[24px] t:gap-0 t:justify-between ">
