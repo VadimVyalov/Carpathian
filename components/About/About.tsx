@@ -1,12 +1,13 @@
 
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 import Container from "../Conteiner/Container";
 import { Section } from "../Section/Section";
 import style from "./styles.module.scss";
 
 const About = () => {
-
+  const t = useTranslations('IndexPage');
 
   return (
     <Section id="about" className={` h-[826px] bg-gradient-to-b from-[#001826] from-10%   to-[#002426] to-90% ${style.bg}` } >
@@ -15,10 +16,12 @@ const About = () => {
         <div   className="grid grid-cols-1 t:grid-cols-[426px_230px] d:grid-cols-[646px_294px] t:grid-rows-[auto_auto_auto] gap-[24px] t:gap-0 t:justify-between ">
         
           <h2 className="heading-content t:col-start-1 t:row-start-1 t:row-span-2">
-            <span className="block font-medium ">Uncover</span>
+            {/* <span className="block font-medium ">Uncover</span>
             Carpathian’s
             <br />
-            Secrets
+            Secrets */}
+
+            
           </h2>
 
           <p className="w-[157px] t:w-[263px] d:w-full text-[10px] t:text-[14px] d:text-[16px] leading-[1.6] t:leading-[1.14] 

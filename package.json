@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "lint": "eslint src && tsc",
+    "lint":  "eslint \"**/*.{ts,tsx}\"",
     "test": "pnpm run test:playwright && pnpm run test:jest",
     "test:playwright": "playwright test",
     "test:jest": "jest",

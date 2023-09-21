@@ -9,13 +9,6 @@ export default function IndexPage() {
 
   return (
 <>
-      <p className="max-w-[590px]">
-        {t.rich('description', {
-          accent: (chunks) => (
-            <span className="font-mono text-white">{chunks}</span>
-          )
-        })}
-      </p>  
       < Hero />
       < About />
       </>
