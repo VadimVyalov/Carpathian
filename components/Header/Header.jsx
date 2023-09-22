@@ -14,7 +14,7 @@ const Header = ({ className = '' }) => {
     <header
       className={`text-white absolute z-10 top left w-[100vw] px-[20px] pt-[36px] t:px-[32px] t:pt-[25px] d:px-[24px] d:pt-[48px] ${className}`}
     >
-      {isM ? <Navbar /> : <p>"BurgerMenu"</p>}
+      {isM ? <Navbar /> : <p>BurgerMenu</p>}
     </header>
   );
 };
