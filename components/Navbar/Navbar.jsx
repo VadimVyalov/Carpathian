@@ -39,9 +39,7 @@ const  Navbar=()=> {
                   active="active"
                   smooth={true}
                   duration={500}
-                  
                   to={item.link}
-               
                 >
                   {`${item.section}`}
 

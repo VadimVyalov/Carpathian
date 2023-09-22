@@ -1,12 +1,8 @@
 "use client";
 
+import { Link } from "react-scroll";
 
-
-
-
-//import { Link } from "react-scroll";
-
-const StylishButton= ({
+const StylishButton = ({
   text,
   size,
   line,
