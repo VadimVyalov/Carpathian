@@ -6,10 +6,16 @@
   "Error":{
     "title": "Error",
     "description": "Hmm... what is this"
-
+  },
+  "NotFoundPage":{
+    "title": "NotFoundPage",
+    "description": "Hmm... what is this"
+  },
+  "LocaleSwitcher":{
+    "label": "Laguge",
+    "locale": "EN"
   },
   "Hero":{
-    
       "title":  "<accent>Uncover </accent> Carpathian’s Secrets" ,
       "subtitle-01":  "<accent>7</accent>days" ,
       "subtitle-02":  "<accent>j</accent><accent>o</accent><accent>u</accent><accent>r</accent><accent>n</accent><accent>e</accent><accent>y</accent>" ,

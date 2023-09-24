@@ -12,7 +12,8 @@ const About = () => {
   bla bla bla`
   return (
     <Section id="about" className={` h-[826px] bg-gradient-to-b from-[#001826] from-10%   to-[#002426] to-90% ${style.bg}`} >
-
+    {/* <Section id="about" className={` h-[826px]  [@media(min-resolution: 2dppx)]:bg-[url('/assets/images/background/about-01-Mx2.jpg')] bg-[url('/assets/images/background/about-01-Mx1.jpg')]
+    d:[@media(min-resolution: 2dppx)]:bg-[url('/assets/images/background/about-01-Mx2.jpg')] d:bg-[url('/assets/images/background/about-01-Dx1.jpg')]`} ></Section> */}
       <Container>
         <div className="grid grid-cols-1 t:grid-cols-[426px_230px] d:grid-cols-[646px_294px] t:grid-rows-[auto_auto_auto] gap-[24px] t:gap-0 t:justify-between ">
 
